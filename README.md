@@ -7,3 +7,7 @@ Phaserのチュートリアルを参照して、同じものを再現しよう�
 
 1. Insert the player's name(playerの名前を入力)
 2. Player can move the avatar(Avatarを動かせる)
+
+![Alt text](/screenshot/prompt-name.png?raw=true "Prompt the name")
+
+![Alt text](/screenshot/game.png?raw=true "The game")
