@@ -1,3 +1,6 @@
+// ask for name
+let promptBox = prompt('Insert your name');
+
 let phaserConfig = {
     type: Phaser.AUTO,
     width: 800,
@@ -112,7 +115,7 @@ function create() {
 
     // create text score
     let score = 0;
-    let textScore = this.add.text(16,16, 'score: 0', { fontSize: '32px', fill: '#000' });
+    let textScore = this.add.text(16,16, promptBox + "'s " + 'score: 0', { fontSize: '32px', fill: '#000' });
 
 
     // add bomb
